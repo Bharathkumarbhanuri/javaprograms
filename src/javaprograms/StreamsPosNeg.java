@@ -11,7 +11,5 @@ public class StreamsPosNeg {
 		Map<Object, List<Integer>> numbersByposneg = numbers.stream()
 				.collect(Collectors.groupingBy(n -> n>0 ? "pos": "neg"));
 		System.out.println(numbersByposneg);
-		
-		
 	}
 }

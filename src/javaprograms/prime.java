@@ -13,7 +13,7 @@ public class prime {
 		
 	}
 	public static void solution(int num) {
-		if(num>=1 && num<=1000) {
+		if(num>=1 && num<=100000) {
 			System.out.println("number is "+ num); 
 		}
 		else {
@@ -50,7 +50,7 @@ public class prime {
 	
 	public static void countTotalPrimes() {
         int primeCount = 0;
-        for (int i = 1; i <= 1000; i++) {
+        for (int i = 1; i <= 100000; i++) {
             if (isPrime(i)) {
                 primeCount++;
             }
